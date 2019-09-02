@@ -1,0 +1,32 @@
+html, body {height:100%; width:100%; font:          normal 400 18px/1 "Calibri", sans-serif;}
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+#gameboard{
+    background: #297A4A;
+    perspective: 1000px;
+    font-size: 3em;
+    margin: 2em auto;
+}
+
+.button_one{
+left: 50; 
+
+}
+
+.resulat{
+ background-color:  red;
+}
+
+
+.display_result *:before {
+        box-sizing: border-box;
+        position: absolute;
+        top: 50%; left: 50%;
+        transform-style: preserve-3d;
+        transition: all 1s;
+      }
+ 

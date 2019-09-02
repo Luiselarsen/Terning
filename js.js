@@ -1,12 +1,16 @@
+
+
+
 // Sætter antal af terninger
-let num_dices = 2;
+
+let num_dices = 1;
 // Array til terninger
 let array_dices = [];
-// Sætter array til engelske tal - skal bruges til font awesome ikoner
+
 let array_dice_names = ["", "one", "two", "three", "four", "five", "six"];
-// Sætter var til html element der skal vise resultater
-let display_result = document.getElementById("display_result");
-// Sætter addEventListener til klik på knap
+
+let display_result = document.getElementsByClassName("display-result");
+
 document.getElementById("rollthedice").addEventListener("click", rollTheDice);
 
 /**
@@ -50,4 +54,4 @@ function rollTheDice() {
 }
 
 // Kaster terningerne når siden loades
-rollTheDice();
+rollTheDice( auto);
