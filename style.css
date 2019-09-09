@@ -1,32 +1,36 @@
-html, body {height:100%; width:100%; font:          normal 400 18px/1 "Calibri", sans-serif;}
-  
-  *,
-  *:before,
-  *:after {
-    box-sizing: inherit;
-  }
-#gameboard{
-    background: #297A4A;
-    perspective: 1000px;
-    font-size: 3em;
-    margin: 2em auto;
+.container {
+  background-image: radial-gradient(#e7f7ff, #ffdaac);
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  margin: 10em auto;
+}
+
+.section-text {
+  font-size: 1em;
+ 
+
+
+}
+
+.section-terning {
+  font-size: 5em
 }
 
 .button_one{
-left: 50; 
 
 }
+#gameboard{
 
-.resulat{
- background-color:  red;
+  
 }
 
 
-.display_result *:before {
-        box-sizing: border-box;
-        position: absolute;
-        top: 50%; left: 50%;
-        transform-style: preserve-3d;
-        transition: all 1s;
-      }
- 
+.section-regler {
+  font-size: 1em;
+  font: 100;
+}
+

@@ -1,32 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/47fad36f33.js"></script>
+
     <title>Document</title>
 </head>
-
-        <body class="header">
-            <div class="header-container"></div>
-            <button id="rollthedice" class="button_one">klik her</button>
-    
-            <div id="gameboard">
-                <div class="resulat">
-
-
-         
-                    <p class="display-result"></p>
-
-                </div>
-
-            </div>
-            
-         
+<body class="container">
+  
+<div class="section-text">
+    <div id="1" style="display: none">
+        • Du har slået en 1’er: Fælles skål</p>
+        • <i class="fas fa-glass-cheers"></i>
+    </div>
+    <div id="2" style="display: none">
+        • Du har slået en 2’er: Giv 5 tåre til en anden vilkårlig spiller.</p>
+        <i class="fas fa-beer"></i>
+        <i class="fas fa-beer"></i>
+        <i class="fas fa-beer"></i>
+        <i class="fas fa-beer"></i>
+        <i class="fas fa-beer"></i>
+    </div>
+    <div id="3" style="display: none">
+        <p> • Du har slået en 3’er: Vandfald.
+            <i class="fas fa-water"></i>
+    </div>
+    <div id="4" style="display: none">
+        <p> • Du har slået en 4’er: Personen til venstre skal drikke 5 tåre.</p>
+        <i class="fas fa-hand-point-left"></i>
+        <i class="fas fa-beer"></i>
+        <i class="fas fa-beer"></i>
+        <i class="fas fa-beer"></i>
+        <i class="fas fa-beer"></i>
+        <i class="fas fa-beer"></i>
+    </div>
+    <div id="5" style="display: none">
+        <p> • Du har slået en 5’er: Personen til højre skal drikke 5 tåre.</p>
+        <i class="fas fa-hand-point-right"></i>
+        <i class="fas fa-beer"></i>
+        <i class="fas fa-beer"></i>
+        <i class="fas fa-beer"></i>
+        <i class="fas fa-beer"></i>
+        <i class="fas fa-beer"></i>
+    </div>
+    <div id="6" style="display: none">
+        <p>• Du har slået en en 6’er: Fandens, du skal selv drikke 5 tåre.</p>
+        <i class="far fa-thumbs-up"></i>
+        <i class="fas fa-beer"></i>
+        <i class="fas fa-beer"></i>
+        <i class="fas fa-beer"></i>
+        <i class="fas fa-beer"></i>
+        <i class="fas fa-beer"></i>
         </div>
-        </body>
-        <script src="/js.js"></script>
-        </html>
-    
+    </div>
+    <div class="section-terning">
+        <button id="rollthedice" class="button_one">tryk her</button>
+           
+                <div class="resulat">
+                        <div id="gameboard">
+                    <p class="display-result">
+                   
+                    </p>
+                 
+                </div>
+                
+            </div>
+        </div>
+
+
+
+<div class="section-regler">
+
+<p>
+        Samtidig er der en række andre regler for de resterende fem terningekast, som man kan risikere at slå. Disse kan variere meget fra fest til fest, og der er ikke et bestemt regelsæt, som er det rigtige. Her vil vi præsentere jer for et forslag som vi ofte har haft stor glæde af, men I kan selvfølgelig tilpasse det hvis I har nogle andre gode ideer.
+<br>
+        Slår en 1’er: Fælles skål
+        <br>
+        Slår en 2’er: Giv 5 tåre til en anden vilkårlig spiller.
+        <br>
+        Slår en 3’er: Træmand skal drikke 5 slurke. Eller træmand kan gives væk (hvis træmand laver kastet)
+        <br>
+        Slår en 4’er: Personen til venstre skal drikke 5 tåre.
+        <br>
+        Slår en 5’er: Personen til højre skal drikke 5 tåre.
+        <br>
+        Slår en 6’er: Fandens, du skal selv drikke 5 tåre.
+        <br>
+
+
+
+</p>
+
+
+
+
+</div>
+
+
+</body>
+
+<script src="js.js"></script>
+
+</html>
